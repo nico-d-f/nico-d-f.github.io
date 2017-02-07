@@ -5,30 +5,26 @@ body {
   background-color: #DDDDDD;
 }
 
-#wrapper {/*contains ths sites content*/
-  position: relative;
+#wrapper {
+  position: absolute;
   width: 100%;
 }
 
-#header {
+#header {/*sets dimensions and position of the header and sets the color of the text*/
   position: absolute;
   top: 20px;
   left: 120px;
-  width: 90%;
-  text-align: left;
-  color: #4d556a;
-  height: 20%;
+  color: #888888;
 }
 
-#sidebar{
+#sidebar{/*sets dimensions and position of the sidebar and sets the alignment of the text*/
   position: absolute;
   top: 240px;
   left: 60px;
-  width: 20%;
   text-align: left;
 }
 
-#page {
+#page {/*sets dimensions and position of the page-box and sets the color of the text*/
   position: absolute;
   max-width: 80%;
   padding-right:5%;
@@ -38,21 +34,25 @@ body {
   color: #444444;
 }
 
-a {
+a {/*sets color and size, removes the underline and displays the text as bold in the sidebar*/
   color: #6666aa;
   text-decoration: none;
   font-weight: bold;
   font-size: 24px;
-  margin-bottom: 2em;
 }
 
-h1 {
+h1 {/*sets color and letter spacing for headline 1*/
   color: #6666aa;
   letter-spacing: 0.1px
 }
 
-h2 {
+h2 {/*sets color, size and letter spacing for headline 2*/
   color: #444444;
   text-align: center;
+  font-size: 18px
+}
+h3 {/*sets color, size and letter spacing for headline 1*/
+  color: #6666aa;
+  text-align: left;
   font-size: 18px
 }
